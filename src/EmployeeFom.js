@@ -30,7 +30,7 @@ const EmployeeFom = () => {
         <form className='mainFrom' action='' onSubmit={submitEmp}>
             <div className='empForm'>
                 <label htmlFor="fname">First Name:</label>
-                <input type='text' name='fname' id='fname'
+                <input type='text' name='fname' id='fname' autoComplete='off'
                 value={allEntry.fname}
                 onChange={handleChange}
                 />
@@ -38,7 +38,7 @@ const EmployeeFom = () => {
 
             <div className='empForm'>
                 <label htmlFor="lname">Last Name:</label>
-                <input type='text' name='lname' id='lname'
+                <input type='text' name='lname' id='lname' autoComplete='off'
                 value={allEntry.lname}
                 onChange={handleChange}
                 />
@@ -46,7 +46,7 @@ const EmployeeFom = () => {
 
             <div className='empForm'>
                 <label htmlFor="designation">Designation:</label>
-                <input type='text' name='designation' id='designation' 
+                <input type='text' name='designation' id='designation' autoComplete='off'
                 value={allEntry.designation}
                 onChange={handleChange}
                 />
@@ -54,7 +54,7 @@ const EmployeeFom = () => {
 
             <div className='empForm'>
                 <label htmlFor="dob">Date of Birth:</label>
-                <input type='date' name='dob' id='dob' 
+                <input type='date' name='dob' id='dob' autoComplete='off'
                 value={allEntry.dob}
                 onChange={handleChange}
                 />
